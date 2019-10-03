@@ -1,0 +1,28 @@
+{
+  "name": "capturestatsstream",
+  "version": "1.0.0",
+  "description": "rtmp to mp4 on local",
+  "main": "index.js",
+  "scripts": {
+    "test": "check",
+    "convert": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfeeney87/capturestatsstream.git"
+  },
+  "keywords": [
+    "mp4",
+    "rtmp",
+    "streaming"
+  ],
+  "author": "Dan Feeney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfeeney87/capturestatsstream/issues"
+  },
+  "homepage": "https://github.com/dfeeney87/capturestatsstream#readme",
+  "dependencies": {
+    "ffmpeg": "0.0.4"
+  }
+}
